@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
 
-  s.preserve_paths = "Scripts"
-  s.preserve_paths = "bin"
-  s.preserve_paths = "travis"
+  s.preserve_paths = "Scripts", "bin", "travis"
 
 end
