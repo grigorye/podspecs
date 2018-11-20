@@ -110,6 +110,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
+  s.resource_bundle = { 'GEFoundation-Sources' => 'GEFoundation' }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -132,7 +133,7 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
   
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "GETracing", "~> 0.1"
